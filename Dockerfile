@@ -1,5 +1,5 @@
 # Dockerfile
-FROM docker.io/library/gradle:7.5.1-jdk17 AS build
+FROM docker.io/library/gradle:7.5.1-jdk17-jammy
 
 WORKDIR /app
 
