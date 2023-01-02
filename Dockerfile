@@ -6,7 +6,6 @@ WORKDIR /app
 # add project
 ADD . /app/
 
-RUN gradle clean bootJar
 
 FROM docker.io/library/eclipse-temurin:11-jre-focal AS app
 
